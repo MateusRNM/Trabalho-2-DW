@@ -50,6 +50,10 @@ header > img {
     text-align: center;
 }
 
+h3 {
+    align-self: center;
+}
+
 .items-box {
     display: grid;
     gap: 0.3rem;
@@ -121,6 +125,9 @@ header > img {
 }
 
 @media screen and (min-width: 600px) {
+    body {
+        gap: 1rem;
+    }
 
     .title p {
         display: block;
@@ -157,5 +164,15 @@ header > img {
     .contact {
         align-self: center;
         width: 30rem;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    header {
+        justify-content: center;
+    }
+    
+    body {
+        gap: 2rem;
     }
 }
